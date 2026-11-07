@@ -7,16 +7,16 @@
   --color-text: #1c2430;
   --color-text-muted: #5b6675;
 
-  /* Accent: YOUR TURN */
-  --color-accent: ;
-  --color-accent-dark: ;
+  /* Accent */
+  --color-accent: #0f766e;
+--color-accent-dark: #115e59;
 
-  /* Order status colours: YOUR TURN */
-  --status-new: ;
-  --status-processing: ;
-  --status-ready: ;
-  --status-completed: ;
-  --status-cancelled: ;
+    /* Order status colors */
+--status-new: #2563eb;
+--status-processing: #b45309;
+--status-ready: #7c3aed;
+--status-completed: #15803d;
+--status-cancelled: #6b7280;
 
   /* Spacing scale (given) */
   --space-1: 0.25rem;

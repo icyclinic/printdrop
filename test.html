@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/base.css">
+    <style>
+         .badge {
+             display: inline-block;
+             padding: var(--space-1) var(--space-3);
+             border-radius: var(--radius);
+             font-size: var(--text-sm);
+             color: #ffffff;
+      }
+        .badge-new { background: var(--status-new); }
+        .badge-processing{ background: var(--status-processing); }
+        .badge-ready { background: var(--status-ready); }
+        .badge-completed { background: var(--status-completed); }
+        .badge-cancelled {background: var(--status-cancelled);}
+    </style>
 </head>
 <body>
-    
+    <span class="badge badge-new">New</span>
+    <span class="badge badge-processing">Processing</span>
+    <span class="badge badge-ready">Ready for collection</span>
+    <span class="badge badge-completed">Completed</span>
+    <span class="badge badge-cancelled">Cancelled</span>  
 </body>
 </html>
