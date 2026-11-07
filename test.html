@@ -32,14 +32,29 @@
         .btn:hover {
             background: var(--color-accent-dark);
         }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: var(--space-4);
+        }
     </style>
 </head>
 <body>
+    <!-- Badge -->
     <span class="badge badge-new">New</span>
     <span class="badge badge-processing">Processing</span>
     <span class="badge badge-ready">Ready for collection</span>
     <span class="badge badge-completed">Completed</span>
     <span class="badge badge-cancelled">Cancelled</span>  
+
+    <!-- Upload Button -->
     <button class="btn">Upload Document</button>
+    
+        <div class="row">
+           <span>Copies</span>
+           <span>2</span>
+        </div>
 </body>
 </html>
