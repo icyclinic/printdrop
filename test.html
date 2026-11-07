@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PrintDrop test page</title>
     <link rel="stylesheet" href="css/base.css">
     <style>
          .badge {
@@ -13,11 +13,25 @@
              font-size: var(--text-sm);
              color: #ffffff;
       }
+      
         .badge-new { background: var(--status-new); }
-        .badge-processing{ background: var(--status-processing); }
+        .badge-processing { background: var(--status-processing); }
         .badge-ready { background: var(--status-ready); }
         .badge-completed { background: var(--status-completed); }
         .badge-cancelled {background: var(--status-cancelled);}
+
+        .btn {
+            background: var(--color-accent);
+            color: #ffffff;
+            border: none;
+            padding: var(--space-3) var(--space-6);
+            border-radius: var(--radius);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: var(--color-accent-dark);
+        }
     </style>
 </head>
 <body>
@@ -26,5 +40,6 @@
     <span class="badge badge-ready">Ready for collection</span>
     <span class="badge badge-completed">Completed</span>
     <span class="badge badge-cancelled">Cancelled</span>  
+    <button class="btn">Upload Document</button>
 </body>
 </html>
